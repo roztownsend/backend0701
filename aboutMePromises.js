@@ -1,3 +1,5 @@
+//Wanted some practice with promises. Ignore.
+
 const displayAnswer = (answer) => {
     console.log(answer);
 }
