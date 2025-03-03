@@ -18,7 +18,7 @@ const questionAndAnswerGenerator = async (data, displayData) => {
         await new Promise(resolve => setTimeout(resolve, 1000));
             const myResponse = data[key].response;
             displayData(myResponse);
-            await new Promise(resolve => setTimeout(resolve, 2000));
+            await new Promise(resolve => setTimeout(resolve, 1500));
         };
     };
 
